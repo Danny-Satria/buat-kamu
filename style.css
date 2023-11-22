@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background: url(assets/flowers-with-copy-space.jpg);
+  background-position: center;
+  overflow-x: hidden;
+}
+
+.perkenalan {
+  position: absolute;
+  font-size: 4.5em;
+  left: 9em;
+  top: 0.5em;
+}
+
+.name {
+  position: absolute;
+  font-size: 50px;
+  left: 9.3em;
+  top: 2.8em;
+}
+
+.pertanyaan {
+  position: absolute;
+  top: 3.5em;
+  font-size: 3.8em;
+  left: 5.6em;
+  text-decoration: underline;
+}
+
+.love {
+  position: absolute;
+  font-size: 5em;
+  top: 4em;
+  left: 7.8em;
+  color: #1b1b1b;
+  animation: degup 5s infinite;
+}
+
+.btnGroup {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 26em;
+  left: -20px;
+}
+
+.mau {
+  position: absolute;
+  width: 6em;
+  height: 2.3em;
+  font-size: 1.5em;
+  top: 3em;
+  left: 20em;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.nggak {
+  position: absolute;
+  width: 6em;
+  font-size: 1.5em;
+  height: 2.3em;
+  top: 3em;
+  right: 20em;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 634px) {
+  .perkenalan {
+    position: absolute;
+    font-size: 4em;
+    left: 2.4em;
+    top: 0.3em;
+  }
+  .name {
+    position: absolute;
+    font-size: 2em;
+    left: 1.3em;
+    top: 3em;
+  }
+
+  .pertanyaan {
+    position: absolute;
+    top: 6em;
+    font-size: 1.6em;
+    left: 0.6em;
+    text-align: center;
+    font-weight: 900;
+    text-decoration: underline;
+  }
+
+  .love {
+    position: absolute;
+    font-size: 6em;
+    top: 2.4em;
+    left: 1.5em;
+    color: #1b1b1b;
+    animation: degup 5s infinite;
+  }
+
+  .btnGroup {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 26em;
+    left: 10px;
+  }
+
+  .mau {
+    position: absolute;
+    width: 6em;
+    height: 2.3em;
+    left: 3em;
+    font-size: 1em;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 8px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .nggak {
+    position: absolute;
+    width: 6em;
+    height: 2.3em;
+    right: 3.8em;
+    font-size: 1em;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+
+.mau:hover {
+  cursor: pointer;
+  background-color: pink;
+  color: green;
+}
+.mau:active {
+  cursor: pointer;
+  background-color: pink;
+  color: green;
+}
+
+@keyframes degup {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+    transition: all ease-in-out 0.3s;
+  }
+  100% {
+    transform: scale(1);
+    transition: all ease-in-out 0.3s;
+  }
+}

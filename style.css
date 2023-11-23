@@ -5,8 +5,7 @@
 
 body {
   font-family: sans-serif;
-  background: url(assets/flowers-with-copy-space.jpg);
-  background-position: center;
+  background-color: #fedcdb;
   overflow-x: hidden;
 }
 
@@ -15,6 +14,7 @@ body {
   font-size: 4.5em;
   left: 9em;
   top: 0.5em;
+  color: #504027;
 }
 
 .name {
@@ -22,6 +22,7 @@ body {
   font-size: 50px;
   left: 9.3em;
   top: 2.8em;
+  color: #504027;
 }
 
 .pertanyaan {
@@ -29,7 +30,7 @@ body {
   top: 3.5em;
   font-size: 3.8em;
   left: 5.6em;
-  text-decoration: underline;
+  color: #504027;
 }
 
 .love {
@@ -56,7 +57,7 @@ body {
   font-size: 1.5em;
   top: 3em;
   left: 20em;
-  background-color: green;
+  background-color: #e9e488;
   border: none;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -69,7 +70,7 @@ body {
   height: 2.3em;
   top: 3em;
   right: 20em;
-  background-color: green;
+  background-color: #e9e488;
   border: none;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -122,7 +123,7 @@ body {
     height: 2.3em;
     left: 3em;
     font-size: 1em;
-    background-color: green;
+    background-color: #e9e488;
     border: none;
     border-radius: 10px;
     box-shadow: 3px 8px 8px 0 rgba(0, 0, 0, 0.2);
@@ -134,22 +135,27 @@ body {
     height: 2.3em;
     right: 3.8em;
     font-size: 1em;
-    background-color: green;
+    background-color: #e9e488;
     border: none;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .mau:active {
+    background-color: pink;
+    color: #d4e0ee;
   }
 }
 
 .mau:hover {
   cursor: pointer;
   background-color: pink;
-  color: green;
+  color: #d4e0ee;
 }
 .mau:active {
   cursor: pointer;
   background-color: pink;
-  color: green;
+  color: #d4e0ee;
 }
 
 @keyframes degup {

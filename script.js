@@ -1,4 +1,4 @@
-let pesanWhatsapp = "Wo Aini. Te Amo. Ku Tresno🖤";
+let pesanWhatsapp = "You are the best thing I never planned✨✨";
 const x = document.querySelector("button.nggak");
 x.addEventListener("click", function () {
   const i = Math.floor(Math.random() * 200) + 1;
@@ -12,5 +12,6 @@ function mau() {
   alert(`Good girl`);
   alert(`Here we go`);
   alert(`Last...`);
+  alert(`Wo Aini. Te Amo. Ku Tresno❤️`);
   window.open("https://api.whatsapp.com/send?text=" + pesanWhatsapp, "_blank");
 }

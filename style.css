@@ -80,20 +80,20 @@ body {
   .perkenalan {
     position: absolute;
     font-size: 4em;
-    left: 2.4em;
+    left: 2.7em;
     top: 0.3em;
   }
   .name {
     position: absolute;
     font-size: 2em;
-    left: 1.3em;
+    left: 1.9em;
     top: 3em;
   }
 
   .pertanyaan {
     position: absolute;
     top: 6em;
-    font-size: 1.6em;
+    font-size: 1.8em;
     left: 0.6em;
     text-align: center;
     font-weight: 900;
